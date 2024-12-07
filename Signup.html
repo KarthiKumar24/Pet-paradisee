@@ -39,17 +39,6 @@
                 <input type="mail" id="uMail" required placeholder="Email-id" onkeyup="validateMail()" /><span
                     id="mailError"></span>
             </p>
-            <div id="gender" onclick="validateRadio()">
-                <label>Gender &nbsp; :&nbsp;</label>
-                <div>
-                    <p><input type="radio" name="gender" value="Male">Male</p>
-                    <p><input type="radio" name="gender" value="Female">Female</p>
-                    <p><input type="radio" name="gender" value="Others">Others</p>
-                </div>
-                <div id="line"></div>
-            </div>
-            <span id="genError"></span>
-
             <!-- Password Vaild -->
             <p>
                 <input type="password" placeholder="Password" id="password" onkeyup="validatePass()" /><span>
@@ -130,25 +119,6 @@
                 return false;
             }
         }
-
-        function validateRadio() {
-            let ele = document.getElementsByName('gender');
-            for (let i = 0; i < ele.length; i++) {
-                if (ele[i].checked) {
-                    radioInput.textContent = "Valid";
-                    radioInput.className = "success";
-                    radioInput.style.color = "#30e54c"
-                    lineInput.style.borderTopColor = "#30e54c";
-                    return true;
-                }
-            }
-            radioInput.textContent = "You must select your gender";
-            radioInput.className = "error";
-            radioInput.style.color = "red"
-            lineInput.style.borderTopColor = "red";
-            return false;
-        }
-
         function validatePass() {
             let pInput = document.getElementById("password").value.trim();
             let passPattern = /^[a-zA-Z0-9@\^]{8,12}$/;
@@ -178,7 +148,7 @@
             let loginError = document.getElementById("login-error");
             let overError = "Fix The Errors";
 
-            if (!validateName() || !validateMail() || !validateRadio() || !validatePass()) {
+            if (!validateName() || !validateMail() || !validatePass()) {
                 loginError.textContent = overError;
                 loginError.className = "error";
                 loginError.style.backgroundColor = "red";
@@ -188,9 +158,6 @@
                 // Mail
                 mailError.style.color = "red"
                 Minput.style.borderBottomColor = "red";
-                // radio
-                radioInput.style.color = "red"
-                lineInput.style.borderTopColor = "red";
                 // pass
                 passError.style.color = "red"
                 document.getElementById("password").style.borderBottomColor = "red";
@@ -203,8 +170,6 @@
                 input.style.borderBottomColor = "#30e54c"
                 mailError.style.color = "#30e54c"
                 Minput.style.borderBottomColor = "#30e54c"
-                radioInput.style.color = "#30e54c"
-                lineInput.style.borderTopColor = "#30e54c"
                 passError.style.color = "#30e54c"
                 document.getElementById("password").style.borderBottomColor = "#30e54c"
                 loginError.style.backgroundColor = "#30e54c"
