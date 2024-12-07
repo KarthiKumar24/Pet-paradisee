@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="./Image/logo-01-01.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="res_cont.css">
+    <link rel="stylesheet" href="res_contact.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHBz"
+        crossorigin="anonymous"></script>
+
+</head>
+<style>
+    /* .error-message {
+            color: red;
+            font-size: 18px;
+            margin-top: 5px;
+            width: auto;
+            background-color: antiquewhite;
+            text-align: start;
+        }
+
+        .success-message {
+            color: green;
+            font-size: 14px;
+            margin-top: 10px;
+        } */
+
+
+    span {
+        color: red;
+        margin-bottom: 10px;
+    }
+
+   
+    .contact-form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+
+<body>
+        <a href="./Signup.html"><img src="./Image/logo-01.svg" alt="PetParadise-logo" class="logo"></a>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" id="checkbtn"><i class="fa fa-bars"></i></label>
+            <ul id="ul-active">
+                <a href="./index.html">
+                    <li class="btn">HOME</li>
+                </a>
+                <a href="/consultation.html">
+                    <li class="btn ">CONSULT</li>
+                </a>
+                <a href="./contact.html">
+                    <li class="btn active">CONTACT</li>
+                </a>
+            </ul>
+        </nav>
+    <!--  -->
+    <div class="contacted-container">
+        <img src="./Image/pet-contact-form.png" alt="" srcset="">
+        <div class="contact-content">
+            <h1>Get in touch with us</h1>
+            <a href="">We love to hear from pets and their pet parents for feedback, order queries or assistance.</pa>
+                <a href="https://maps.app.goo.gl/RfBLaA8MFJELWox37" target="_blank"><i
+                        class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; No-143,
+                    KK Nagar 8th<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Block, Madurai - 16</a>
+                <a href="tel:9790477908"><i class="fa-solid fa-phone"></i>&nbsp; +91 9790477908</a>
+                <a href="mailto:connectwithpetparadise@gmail.com"><i class="fa-regular fa-envelope"></i>&nbsp;
+                    Connectwithpetparadise@gmail.com</a>
+        </div>
+        <div class="contact-form">
+            <form>
+                <h1>CONTACT</h1>
+                <input type="text" id="usernameInput" placeholder="Username" onkeyup="validateUsername()" required>
+                <span id="usernameError"></span>
+
+                <input type="email" id="emailInput" placeholder="Email" onkeyup="validateEmail()" required>
+                <span id="emailError"></span>
+
+                <textarea name="message" placeholder="Message Here" id="messageInput" onkeyup="validateMessage()"
+                    required></textarea>
+                <span id="messageError"></span>
+
+                <button type="submit" id="submitButton" onclick="validateForm()">SUBMIT</button>
+                <h3><span id="formError"></span></h3>
+            </form>
+        </div>
+
+    </div>
+    <script>
+
+        // Username validation
+        let usernameInput = document.getElementById("usernameInput");
+        let usernameError = document.getElementById("usernameError");
+
+        function validateUsername() {
+            let username = usernameInput.value.trim();
+            let usernamePattern = /^[a-zA-Z_\s]+$/;
+
+            if (username.length === 0) {
+                usernameError.textContent = "Enter Your Name";
+                usernameError.style.color = "red";
+                usernameInput.style.borderColor = "red";
+                return false;
+            } else if (usernamePattern.test(username)) {
+                usernameError.textContent = "Valid username";
+                usernameError.className = "success";
+                usernameError.style.color = "#30e54c";
+                usernameInput.style.borderColor = "#30e54c";
+                return true;
+            } else {
+                usernameError.textContent = "Enter Your Name Properly";
+                usernameError.style.color = "red";
+                usernameError.className = "error";
+                usernameInput.style.borderColor = "red";
+                return false;
+            }
+        }
+
+        // Email validation
+        let emailInput = document.getElementById("emailInput");
+        let emailError = document.getElementById("emailError");
+
+        function validateEmail() {
+            let email = emailInput.value.trim();
+            let emailPattern = /^[\w\.]+@([\w]+\.)+[\w]{2,3}$/;
+
+            if (email.length === 0) {
+                emailError.textContent = "Enter Your Email";
+                emailError.style.color = "red";
+                emailInput.style.borderColor = "red";
+                return false;
+            } else if (emailPattern.test(email)) {
+                emailError.textContent = "Valid Email";
+                emailError.className = "success";
+                emailError.style.color = "#30e54c";
+                emailInput.style.borderColor = "#30e54c";
+                return true;
+            } else {
+                emailError.textContent = "Invalid Email";
+                emailError.style.color = "red";
+                emailError.className = "error";
+                emailInput.style.borderColor = "red";
+                return false;
+            }
+        }
+
+        // Message validation
+        let messageInput = document.getElementById("messageInput");
+        let messageError = document.getElementById("messageError");
+
+        function validateMessage() {
+            let message = messageInput.value.trim();
+
+            if (message.length === 0) {
+                messageError.textContent = "Enter Your Message";
+                messageError.style.color = "red";
+                messageInput.style.borderColor = "red";
+                return false;
+            } else if (message.length > 0) {
+                messageError.textContent = "Valid Message";
+                messageError.className = "success";
+                messageError.style.color = "#30e54c";
+                messageInput.style.borderColor = "#30e54c";
+                return true;
+            }
+        }
+
+        // Full form validation on submit
+        let formError=   document.getElementById("formError");
+        function validateForm() {
+            let isUsernameValid = validateUsername();
+            let isEmailValid = validateEmail();
+            let isMessageValid = validateMessage();
+
+            if (isUsernameValid && isEmailValid && isMessageValid) {
+                formError.textContent = "Form submitted successfully!";
+                formError.style.color = "#30e54c";
+                formError.style.textAlign = "center";
+            } else {
+                formError.textContent = "Fill the form correctly";
+                formError.style.color = "red";
+                formError.style.textAlign = "center";
+            }
+        }
+    </script>
+<div class="pet-hands">
+    <img src="./Image/pawhands.webp" alt="">
+  </div>
+    <!-- Footer -->
+    <footer>
+        <section class="top">
+            <ul class="footer-ul">
+                <li id="Quick-links">
+                    <h3>Quick Link</h3>
+                    <a href="./index.html">Home</a>
+                    <a href="./consultation.html">Consult a Vet</a>
+                    <a>Signup</a>
+                </li>
+                <li id="Explore">
+                    <h3>Explore</h3>
+                    <a href="./contact.html">Contact</a>
+                    <a href="#faq">FAQ</a>
+                </li>
+                <li id="git">
+                    <h3>Service</h3>
+                    <div class="tele">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+91 9790477908">+91 9790477908</a>
+                    </div>
+                    <div class="tele">
+                        <i class="fa-solid fa-comment"></i>
+                        <a target="_blank" href="https://wa.me/919790477908">Whatsapp Us</a>
+                    </div>
+                    <div class="tele">
+                        <i class="fa-regular fa-envelope"></i>
+                        <a target="_blank"
+                            href="mailto:karthikumarofficial24@gmail.com">karthikumarofficial24@gmail.com</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </section>
+        <section>
+            <form action="">
+                <div class="contact" id="contact">
+                    <h1>Sign up for the best offers and latest petcare tips</h1>
+                    <input type="email" id="email" for="email" placeholder="Enter your email..." required>
+                    <a type="submit"><button><span><i class="fa-solid fa-arrow-right-long"></i></span></button></a>
+
+                </div>
+            </form>
+        </section>
+        <div class="app-links">
+            <a target="_blank" href="https://x.com/i/flow/login"><i class="fa-brands fa-x-twitter"></i> </a>
+            <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i> </a>
+            <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <section class="bottom">&copy 2024 PET PARADISE</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./consult.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+
+</html>

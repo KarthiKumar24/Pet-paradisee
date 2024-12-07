@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup page</title>
+    <link rel="shortcut icon" href="./Image/logo-01-01.svg" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/c08dd9d55a.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <a href="./index.html"><img src="./Image/logo-01.svg" alt="" class="logo"></a>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./consultation.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="img">
+            <img src="./Image/pawhands.webp" alt="">
+        </div>
+        <form action="">
+            <h1>Sign Up</h1>
+            <p>
+                <input type="text" id="user" placeholder="Username" onkeyup="validateName()" /><span
+                    id="nameError"></span>
+            </p>
+            <p>
+                <input type="mail" id="uMail" required placeholder="Email-id" onkeyup="validateMail()" /><span
+                    id="mailError"></span>
+            </p>
+            <div id="gender" onclick="validateRadio()">
+                <label>Gender &nbsp; :&nbsp;</label>
+                <div>
+                    <p><input type="radio" name="gender" value="Male">Male</p>
+                    <p><input type="radio" name="gender" value="Female">Female</p>
+                    <p><input type="radio" name="gender" value="Others">Others</p>
+                </div>
+                <div id="line"></div>
+            </div>
+            <span id="genError"></span>
+
+            <!-- Password Vaild -->
+            <p>
+                <input type="password" placeholder="Password" id="password" onkeyup="validatePass()" /><span>
+                    <i class="fa-regular fa-eye-slash" id="togglePassword"></i></span>
+                <span id="passError"></span>
+            </p>
+            <!-- <p id="drop"></p> -->
+            <!-- Check Box -->
+            <!-- <div class="policy-agree">
+                <div class="course">
+                    <input type="checkbox" name="radio1" />
+                    <p>I have agreed privacy policy & Terms of service and Community guidelines</p>
+                </div>
+            </div> -->
+
+            <button onclick="validateForm()" id="btn-crte">Create Account</button>
+            <h1><span id="login-error"></span></h1>
+
+            <p id="forget">You already have a account ? <a href="#">Login</a></p>
+        </form>
+    </div>
+    <script>
+        let nameError = document.getElementById("nameError");
+        let input = document.getElementById("user");
+
+        let mailError = document.getElementById("mailError");
+        let Minput = document.getElementById("uMail");
+
+        let radioInput = document.getElementById("genError");
+        let lineInput = document.getElementById("line");
+
+        let passError = document.getElementById("passError");
+
+        function validateName() {
+            let username = input.value.trim();
+            let namePattern = /(^[a-zA-Z0-9_\s]+$)/;
+
+            if (username.length === 0) {
+                nameError.textContent = "Enter Your Name";
+                nameError.style.color = "red"
+                input.style.borderBottomColor = "red";
+                return false;
+            } else if (namePattern.test(username) || username === " ") {
+                nameError.textContent = "Valid username";
+                nameError.className = "success";
+                nameError.style.color = "#30e54c"
+                input.style.borderBottomColor = "#30e54c";
+                return true;
+            } else {
+                nameError.textContent = "Enter Your Name Properly";
+                nameError.style.color = "red"
+                nameError.className = "error";
+                input.style.borderBottomColor = "red";
+                return false;
+            }
+        }
+
+        function validateMail() {
+            let usermail = Minput.value.trim();
+            let mailPattern = /^[\w\.]+@([\w]+\.)+[\w]{2,3}$/;
+
+            if (usermail.length === 0) {
+                mailError.textContent = "Enter Your Mail-Id";
+                mailError.style.color = "red"
+                Minput.style.borderBottomColor = "red";
+                return false;
+            } else if (mailPattern.test(usermail)) {
+                mailError.textContent = "Valid Mail-Id";
+                mailError.className = "success";
+                mailError.style.color = "#30e54c"
+                Minput.style.borderBottomColor = "#30e54c";
+                return true;
+            } else {
+                mailError.textContent = "Invalid Mail-Id";
+                mailError.style.color = "red"
+                mailError.className = "error";
+                Minput.style.borderBottomColor = "red";
+                return false;
+            }
+        }
+
+        function validateRadio() {
+            let ele = document.getElementsByName('gender');
+            for (let i = 0; i < ele.length; i++) {
+                if (ele[i].checked) {
+                    radioInput.textContent = "Valid";
+                    radioInput.className = "success";
+                    radioInput.style.color = "#30e54c"
+                    lineInput.style.borderTopColor = "#30e54c";
+                    return true;
+                }
+            }
+            radioInput.textContent = "You must select your gender";
+            radioInput.className = "error";
+            radioInput.style.color = "red"
+            lineInput.style.borderTopColor = "red";
+            return false;
+        }
+
+        function validatePass() {
+            let pInput = document.getElementById("password").value.trim();
+            let passPattern = /^[a-zA-Z0-9@\^]{8,12}$/;
+
+            if (pInput.length === 0) {
+                passError.textContent = "Enter Your Password";
+                passError.className = "error";
+                passError.style.color = "red"
+                document.getElementById("password").style.borderBottomColor = "red";
+                return false;
+            } else if (passPattern.test(pInput)) {
+                passError.textContent = "Valid Password";
+                passError.className = "success";
+                passError.style.color = "#30e54c"
+                document.getElementById("password").style.borderBottomColor = "#30e54c";
+                return true;
+            } else {
+                passError.textContent = "Invalid Password";
+                passError.style.color = "red"
+                passError.className = "error";
+                document.getElementById("password").style.borderBottomColor = "red";
+                return false;
+            }
+        }
+
+        function validateForm() {
+            let loginError = document.getElementById("login-error");
+            let overError = "Fix The Errors";
+
+            if (!validateName() || !validateMail() || !validateRadio() || !validatePass()) {
+                loginError.textContent = overError;
+                loginError.className = "error";
+                loginError.style.backgroundColor = "red";
+                // Name
+                nameError.style.color = "red"
+                input.style.borderBottomColor = "red";
+                // Mail
+                mailError.style.color = "red"
+                Minput.style.borderBottomColor = "red";
+                // radio
+                radioInput.style.color = "red"
+                lineInput.style.borderTopColor = "red";
+                // pass
+                passError.style.color = "red"
+                document.getElementById("password").style.borderBottomColor = "red";
+                return false;
+            }
+            else {
+                loginError.textContent = "Success";
+                loginError.className = "success";
+                nameError.style.color = "#30e54c"
+                input.style.borderBottomColor = "#30e54c"
+                mailError.style.color = "#30e54c"
+                Minput.style.borderBottomColor = "#30e54c"
+                radioInput.style.color = "#30e54c"
+                lineInput.style.borderTopColor = "#30e54c"
+                passError.style.color = "#30e54c"
+                document.getElementById("password").style.borderBottomColor = "#30e54c"
+                loginError.style.backgroundColor = "#30e54c"
+                return true;
+            }
+
+        }
+
+        $(function () {
+            $('#togglePassword').click(function () {
+                let passwordField = $('#password');
+                let toggleIcon = $('#togglePassword');
+
+                if (toggleIcon.hasClass('fa-eye-slash')) {
+                    toggleIcon.removeClass('fa-eye-slash').addClass('fa-eye');
+                    passwordField.attr('type', 'text');
+                } else {
+                    toggleIcon.removeClass('fa-eye').addClass('fa-eye-slash');
+                    passwordField.attr('type', 'password');
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

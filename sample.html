@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* General styling for the product section */
+.product-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Container for the cards */
+.catego-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Styling for each card */
+.cards {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px; /* Max width for each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.cards:hover {
+    transform: translateY(-10px); /* Slight hover effect */
+}
+
+/* Styling for the images inside the cards */
+.cards img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Card content (e.g., the h4) */
+.cards-content {
+    padding: 10px;
+}
+
+.cards-content h4 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    .product-section h1 {
+        font-size: 1.8rem;
+    }
+    
+    .cards-content h4 {
+        font-size: 1rem;
+    }
+}
+
+/* Smaller devices */
+@media (max-width: 480px) {
+    .product-section h1 {
+        font-size: 1.5rem;
+    }
+}
+
+</style>
+<body>
+    <div class="product-section">
+        <h1>CATEGORIES FOR YOUR DOG</h1>
+        <div class="catego-cards" id="catego">
+            <div class="cards" id="card1">
+                <a href="./Signup.html">
+                    <img src="/Image/royal-canin-maxi.png">
+                </a>
+                <div class="cards-content">
+                    <h4>Dog Food</h4>
+                </div>
+            </div>
+            <div class="cards" id="card2">
+                <a href="./Signup.html">
+                    <img src="/Image/Dog-gromming.png">
+
+                </a>
+                <div class="cards-content">
+                    <h4>Dog Gromming</h4>
+                </div>
+            </div>
+            <div class="cards" id="card3">
+                <a href="./Signup.html">
+
+                    <img src="/Image/Dog-Toys.png">
+                </a>
+                <div class="cards-content">
+                    <h4>Dog Toys</h4>
+                </div>
+            </div>
+            <div class="cards" id="card4">
+                <a href="./Signup.html">
+                    <img src="/Image/Dog-Accessories.png">
+                </a>
+
+                <div class="cards-content">
+                    <h4>Dog Accessories</h4>
+                </div>
+            </div>
+            <div class="cards" id="card5">
+                <a href="./Signup.html">
+                    <img src="/Image/Dog-Supplements.png">
+                </a>
+                <div class="cards-content">
+                    <h4>Dog Supplements</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

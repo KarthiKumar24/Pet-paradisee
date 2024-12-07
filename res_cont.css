@@ -1,0 +1,2301 @@
+@media only screen and (max-width: 425px) {
+  /* Nav */
+  nav {
+    margin-top: 20px;
+    margin-left: 0px;
+    position: relative;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    left: 3%;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 60px;
+    left: 0px;
+    top: 15px;
+    position: absolute;
+  }
+
+  /*  */
+  #checkbtn {
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+  }
+  nav {
+    position: sticky;
+    width: 95%;
+    gap: 200px;
+    height: 40px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0px;
+    left: -450px;
+    position: absolute;
+  }
+  /*  */ /*  */
+  .consult-banner {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .consult-bg-img {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    background-color: rgb(112, 112, 112);
+  }
+  .consult-banner-container {
+    position: relative;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border-bottom: 2rem solid rgb(112, 112, 112);
+    margin-right: 0px;
+  }
+  .consult-banner-content {
+    right: 0%;
+    top: 0%;
+    background-image: none;
+    width: 100%;
+    height: 130%;
+  }
+  .consult-banner-content h1 {
+    color: rgb(11, 11, 11);
+    text-align: start;
+    width: 90%;
+    font-size: 24px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+  }
+  .consult-banner-content p {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    width: 80%;
+    margin-left: 0px;
+  }
+  .btn-consult {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+    margin-right: 85px;
+  }
+  .btn-consult button {
+    border-radius: 12px;
+    font-weight: 800;
+    height: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 153%;
+    background-color: transparent;
+    box-shadow: -5px 5px;
+    transition: all 1s;
+  }
+  /* APps Ad */
+  .google-play-store {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+  .gp-content {
+    width: 90%;
+    margin-left: 10px;
+    gap: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .gp-content h1 {
+    width: 97%;
+    font-size: 16px;
+    color: white;
+    margin-left: 0px;
+  }
+  .apps-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    margin-left: 0%;
+  }
+  .gp-review {
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 0%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+  }
+  .ad-banner {
+    width: 100%;
+    height: auto;
+  }
+  .ad-banner img {
+    width: 100%;
+    height: auto;
+  }
+  .app-card-rv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 115px;
+    width: 60%;
+    height: auto;
+    gap: 10px;
+  }
+  .ad-cards h1 {
+    position: absolute;
+    color: #c99435;
+    bottom: 20px;
+    font-size: 12px;
+    left: 125px;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    width: 45%;
+  }
+  .heading {
+    color: white;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+  }
+  .consultation-work {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .wrk img {
+    width: 80%;
+  }
+  .tost-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .wrk h1,
+  .wrk p {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+  }
+
+  .slide-btn {
+    display: none;
+  }
+
+  .toast-container {
+    width: 60%;
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 15px;
+    margin: 0px 15px;
+  }
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: -21px;
+  }
+
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  input[type="email"] {
+    width: 60%;
+  }
+  .contact span {
+    left: 75%;
+    top: 50%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .contact span {
+    left: 75%;
+    top: 40%;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .consult-bg-img img {
+    width: 75%;
+    height: auto;
+  }
+  .app-card-rv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 125px;
+    width: 65%;
+    height: auto;
+    gap: 10px;
+  }
+  .ad-cards h1 {
+    position: absolute;
+    color: #c99435;
+    bottom: 30px;
+    font-size: 15px;
+    left: 135px;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    width: 50%;
+  }
+  .consultation-work {
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .tost-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .wrk h1,
+  .wrk p {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+  }
+  .toast-container {
+    width: 50%;
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 15px;
+    margin: 0px 15px;
+  }
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+  }
+  /*  */
+  .btn-consult {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+    margin-right: 100px;
+  }
+  input[type="email"] {
+    width: 50%;
+  }
+  .contact span {
+    left: 70%;
+    top: 40%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 600px) {
+  #checkbtn {
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+  }
+  nav {
+    position: sticky;
+    width: 95%;
+    gap: 200px;
+    height: 20px;
+    margin-left: 11px;
+    margin-top: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0px;
+    left: -650px;
+    position: absolute;
+    top: 50px;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 60px;
+    left: 0px;
+    top: 15px;
+    position: absolute;
+  }
+  section.top h3 {
+    margin-bottom: 10px;
+  }
+  /*  */
+  .consult-banner {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .consult-banner-container {
+    height: 55vh;
+  }
+  .consult-bg-img {
+    width: 65%;
+    left: 40%;
+    top: 2%;
+    height: auto;
+    display: none;
+  }
+  .consult-bg-img img {
+    width: 135%;
+    height: 350px;
+  }
+  .consult-banner-content {
+    right: 15%;
+    width: 70%;
+    top: 10px;
+    background-image: none;
+  }
+  .consult-banner-content h1 {
+    color: rgb(11, 11, 11);
+    text-align: start;
+    width: 100%;
+    font-size: 24px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+  }
+  .consult-banner-content p {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 20px;
+    background-color: black;
+    width: 100%;
+    margin-right: 0%;
+  }
+  .btn-consult {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 0px;
+    margin-right: 0%;
+  }
+  .btn-consult button {
+    border-radius: 12px;
+    font-weight: 800;
+    height: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 153%;
+    background-color: transparent;
+    box-shadow: -5px 5px;
+    transition: all 1s;
+  }
+  /*  */
+  .wrk {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-top: 30px;
+  }
+  /* App Ad */
+  .slide-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 320px;
+    width: 60%;
+    position: absolute;
+    top: 160%;
+    left: 20%;
+  }
+  .google-play-store {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .gp-content {
+    width: 85%;
+    margin-left: 50px;
+    gap: 20px;
+  }
+  .gp-content h1 {
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    margin-left: -30px;
+  }
+  .apps-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    margin-left: -15%;
+    margin-bottom: 20px;
+  }
+  .gp-review {
+    width: 95%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+  .ad-banner {
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .app-card-rv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 32%;
+    width: 65%;
+    height: auto;
+    gap: 10px;
+  }
+  .ad-cards h1 {
+    position: absolute;
+    color: #c99435;
+    bottom: 30px;
+    font-size: 16px;
+    left: 35%;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  .heading {
+    color: white;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: clamp(14px, 5vw, 24px);
+  }
+  .wrk img {
+    width: 70%;
+  }
+  .wrk h1 {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+  }
+  .wrk p {
+    font-size: 16px;
+  }
+  .consultation-work {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+  .tost-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: -23px;
+  }
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 565px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  input[type="email"] {
+    width: 60%;
+  }
+  .contact span {
+    left: 75%;
+    top: 42%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .apps-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    margin: 0%;
+  }
+  .apps-btn a img {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .consultation-work {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  .ad-cards h1 {
+    bottom: 40px;
+    left: 40%;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 16px;
+  }
+  section.top h3 {
+    font-size: 18px;
+  }
+  input[type="email"] {
+    width: 40%;
+  }
+  .contact span {
+    left: 65%;
+  }
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: -32px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* Nav */
+  nav {
+    margin-top: 20px;
+    margin-left: 0px;
+    position: relative;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    left: 20%;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 60px;
+    left: 0px;
+    top: 15px;
+    position: absolute;
+  }
+  /*  */
+  .consult-banner {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  .consult-banner {
+    width: 100%;
+  }
+  .consult-banner-container {
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border-bottom: 2rem solid rgb(112, 112, 112);
+  }
+  .consult-bg-img {
+    position: absolute;
+    width: 72%;
+    left: 370px;
+  }
+  .consult-banner-content {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 490px;
+    background-image: none;
+  }
+  .consult-banner-content {
+    right: 45%;
+    top: 10px;
+    background-image: none;
+  }
+  .btn-consult {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 5px;
+    margin-right: 17%;
+  }
+  .consult-banner-content h1 {
+    color: rgb(11, 11, 11);
+    text-align: start;
+    width: 107%;
+    font-size: 40px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+  }
+  .consult-banner-content p {
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    padding: 15px;
+    padding-right: 0px;
+    border-radius: 20px;
+    background-color: black;
+    width: 65%;
+    margin-right: 40%;
+  }
+  .consult-banner-content {
+    right: 45%;
+    top: 10px;
+    background-image: none;
+  }
+  .consult-bg-img {
+    position: absolute;
+    width: 70%;
+    left: 410px;
+    height: 540px;
+  }
+  .consult-bg-img img {
+    width: 80%;
+    height: 450px;
+  }
+  .btn-consult {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 5px;
+    margin-right: 35%;
+  }
+  .google-play-store {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .gp-review {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+  .gp-content {
+    width: 95%;
+    margin-left: 100px;
+    gap: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .gp-content h1 {
+    width: 100%;
+    font-size: 26px;
+    color: white;
+    margin-left: -10px;
+  }
+  .apps-btn {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    gap: 20px;
+    margin-right: 200px;
+  }
+  .slide-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 75%;
+    width: 100%;
+    position: absolute;
+    top: 120%;
+    left: 0%;
+  }
+  .ad-banner {
+    width: 100%;
+  }
+  .app-card-rv {
+    left: 32%;
+  }
+  .ad-cards h1 {
+    font-size: 24px;
+    left: 45%;
+    bottom: 90px;
+  }
+  .heading {
+    width: 100%;
+  }
+  .consultation-work {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .wrk {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .wrk img {
+    width: 65%;
+  }
+  .wrk h1,
+  .wrk p {
+    text-align: center;
+    width: 126%;
+    color: white;
+    font-size: 16px;
+  }
+  .wrk p {
+    text-align: center;
+    width: 126%;
+    color: white;
+    font-size: 16px;
+  }
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: -42px;
+    height: 35%;
+    width: 109%;
+    overflow: hidden;
+  }
+  .tost-btn {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .pet-hands {
+    margin-left: 0px;
+    margin-bottom: 1px;
+  }
+  .pet-hands img {
+    width: 100%;
+  }
+  /* Footer */
+  footer {
+    width: 100%;
+    margin: 35px 5px;
+    height: 750px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 48px;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  input[type="email"] {
+    width: 40%;
+  }
+  .contact span {
+    left: 66%;
+  }
+  .tele {
+    gap: 10px;
+  }
+
+  /* Checking */
+  nav {
+    margin-top: 20px;
+    margin-left: 0px;
+    position: relative;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    left: 8%;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 80px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+  section.top h3 {
+    margin-bottom: 10px;
+  }
+  /*  */
+  .consult-banner {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  .consult-banner-container {
+    height: 55vh;
+  }
+  .consult-bg-img {
+    width: 50%;
+    left: 55%;
+    top: 2%;
+    height: auto;
+  }
+  .consult-bg-img img {
+    width: 135%;
+    height: 350px;
+  }
+  .consult-banner-content {
+    right: 45%;
+    width: 50%;
+    top: 10px;
+    background-image: none;
+  }
+  .consult-banner-content h1 {
+    color: rgb(11, 11, 11);
+    text-align: start;
+    width: 100%;
+    font-size: 24px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+  }
+  .consult-banner-content p {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 20px;
+    background-color: black;
+    width: 100%;
+    margin-right: 0%;
+  }
+  .btn-consult {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 0px;
+    margin-right: 0%;
+  }
+  .btn-consult button {
+    border-radius: 12px;
+    font-weight: 800;
+    height: 100%;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: -5px 5px;
+    transition: all 1s;
+  }
+  /*  */
+  .wrk {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-top: 30px;
+  }
+  /* App Ad */
+  .slide-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 320px;
+    width: 60%;
+    position: absolute;
+    top: 160%;
+    left: 20%;
+  }
+  .google-play-store {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .gp-content {
+    width: 85%;
+    margin-left: 50px;
+    gap: 20px;
+  }
+  .gp-content h1 {
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    margin-left: -30px;
+  }
+  .apps-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    margin-left: -25%;
+    margin-bottom: 20px;
+  }
+  .gp-review {
+    width: 95%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+  .ad-banner {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .app-card-rv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 32%;
+    width: 60%;
+    height: auto;
+    gap: 10px;
+    bottom: 100px;
+  }
+  .ad-cards h1 {
+    position: absolute;
+    color: #c99435;
+    bottom: 20px;
+    font-size: 16px;
+    left: 40%;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  .heading {
+    color: white;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: clamp(14px, 5vw, 24px);
+  }
+  .wrk img {
+    width: 70%;
+  }
+  .wrk h1 {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+  }
+  .wrk p {
+    font-size: 16px;
+  }
+  .consultation-work {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+  .tost-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: -23px;
+  }
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    width: 90%;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .contact span {
+    left: 65%;
+    top: 52%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: -51px;
+    height: 35%;
+    width: 109%;
+    overflow: hidden;
+  }
+  .ad-cards h1 {
+    position: absolute;
+    color: #c99435;
+    bottom: 40px;
+    font-size: 16px;
+    left: 40%;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .consult-banner {
+    width: 95%;
+    margin-left: 20px;
+  }
+  .consult-banner-container {
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border-bottom: 2rem solid rgb(112, 112, 112);
+  }
+  .consult-banner-content {
+    right: 45%;
+    top: 10px;
+    background-image: none;
+  }
+  .btn-consult {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 5px;
+    margin-right: 40%;
+  }
+  .consult-banner-content h1 {
+    color: rgb(11, 11, 11);
+    text-align: start;
+    width: 107%;
+    font-size: 40px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+  }
+  .consult-banner-content p {
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    padding: 15px;
+    padding-right: 10px;
+    border-radius: 20px;
+    background-color: black;
+    width: 65%;
+    margin-right: 35%;
+  }
+  .consult-bg-img {
+    position: absolute;
+    width: 100%;
+    left: 150px;
+    height: auto;
+    top: 22%;
+  }
+  .consult-bg-img img {
+    width: 80%;
+    height: auto;
+  }
+  .google-play-store {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .gp-review {
+    width: 95%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+  .gp-content {
+    width: 90%;
+    margin-left: 0px;
+    gap: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .gp-content h1 {
+    width: 100%;
+    font-size: 38px;
+    color: white;
+    margin-left: 0px;
+  }
+  .apps-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    margin-right: 0px;
+    justify-content: start;
+    margin-left: 0px;
+  }
+  .heading {
+    width: 100%;
+  }
+  .slide-btn {
+    width: 100%;
+    top: 160%;
+    left: -5px;
+    gap: 600px;
+    /* right: AUTO; */
+  }
+  .ad-banner {
+    width: 100%;
+    height: 70vh;
+  }
+  .app-card-rv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 32%;
+    width: 65%;
+    height: auto;
+    gap: 20px;
+    bottom: 150px;
+  }
+  .ad-cards h1 {
+    position: absolute;
+    color: #c99435;
+    bottom: 60px;
+    font-size: 18px;
+    left: 40%;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    bottom: 25px;
+    width: 100%;
+  }
+  .consultation-work {
+    display: flex;
+    width: 90%;
+    height: 50vh;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+  }
+  .wrk {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .wrk img {
+    width: 65%;
+  }
+  .wrk h1,
+  .wrk p {
+    text-align: center;
+    width: 126%;
+    color: white;
+    font-size: 16px;
+  }
+  .wrk p {
+    text-align: center;
+    width: 126%;
+    color: white;
+    font-size: 16px;
+  }
+  /* Toast */
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    height: 35%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .tost-btn {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .pet-hands {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+  }
+  .pet-hands img {
+    width: 100%;
+  }
+  .toast-container {
+    width: 30%;
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 15px;
+    margin: 0px 15px;
+  }
+  .toast-container i {
+    font-size: 24px;
+  }
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 330px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    width: 90%;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  input[type="email"] {
+    width: 30%;
+  }
+  .contact span {
+    left: 62%;
+    top: 42%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+  .consult-banner {
+    width: 95%;
+    margin-left: 20px;
+  }
+  .consult-banner-container {
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border-bottom: 2rem solid rgb(112, 112, 112);
+  }
+  .consult-banner-content {
+    right: 45%;
+    top: 10px;
+    background-image: none;
+  }
+  .btn-consult {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 5px;
+    margin-right: 40%;
+  }
+  .consult-banner-content h1 {
+    color: rgb(11, 11, 11);
+    text-align: start;
+    width: 107%;
+    font-size: 40px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+  }
+  .consult-banner-content p {
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    padding: 15px;
+    padding-right: 0px;
+    border-radius: 20px;
+    background-color: black;
+    width: 65%;
+    margin-right: 40%;
+  }
+  .consult-bg-img {
+    position: absolute;
+    width: auto;
+    left: 250px;
+    height: auto;
+  }
+  .consult-bg-img img {
+    width: 100%;
+    height: 450px;
+  }
+  .google-play-store {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .gp-review {
+    width: 95%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+  .gp-content {
+    width: 90%;
+    margin-left: 0px;
+    gap: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .gp-content h1 {
+    width: 100%;
+    font-size: 38px;
+    color: white;
+    margin-left: 0px;
+  }
+  .apps-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    margin-right: 0px;
+    justify-content: start;
+    margin-left: 0px;
+  }
+  .heading {
+    width: 100%;
+  }
+  .slide-btn {
+    width: 100%;
+    top: 160%;
+    left: -5px;
+    gap: 700px;
+  }
+  .ad-banner {
+    width: 100%;
+    height: 70vh;
+  }
+  .app-card-rv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 32%;
+    width: 65%;
+    height: auto;
+    gap: 20px;
+    bottom: 150px;
+  }
+  .ad-cards h1 {
+    position: absolute;
+    color: #c99435;
+    bottom: 60px;
+    font-size: 24px;
+    left: 40%;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    bottom: 50px;
+    width: 100%;
+  }
+  .consultation-work {
+    display: flex;
+    width: 90%;
+    height: 50vh;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+  }
+  .wrk {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .wrk img {
+    width: 65%;
+  }
+  .wrk h1,
+  .wrk p {
+    text-align: center;
+    width: 126%;
+    color: white;
+    font-size: 16px;
+  }
+  .wrk p {
+    text-align: center;
+    width: 126%;
+    color: white;
+    font-size: 16px;
+  }
+  /* Toast */
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    height: 35%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .tost-btn {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .pet-hands {
+    margin-left: 0px;
+    margin-bottom: 1px;
+  }
+  .pet-hands img {
+    width: 100%;
+  }
+  .toast-container {
+    width: 30%;
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 15px;
+    margin: 0px 15px;
+  }
+  .toast-container i {
+    font-size: 24px;
+  }
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 330px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    width: 90%;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  input[type="email"] {
+    width: 30%;
+  }
+  .contact span {
+    left: 62%;
+    top: 42%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .consult-banner {
+    width: 95%;
+    margin-left: 20px;
+  }
+  .consult-banner-container {
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border-bottom: 2rem solid rgb(112, 112, 112);
+  }
+  .consult-banner-content {
+    right: 45%;
+    top: 10px;
+    background-image: none;
+  }
+  .btn-consult {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 5px;
+    margin-right: 40%;
+  }
+  .consult-banner-content h1 {
+    color: rgb(11, 11, 11);
+    text-align: start;
+    width: 107%;
+    font-size: 40px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+  }
+  .consult-banner-content p {
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    padding: 15px;
+    padding-right: 0px;
+    border-radius: 20px;
+    background-color: black;
+    width: 65%;
+    margin-right: 40%;
+  }
+  .consult-bg-img {
+    position: absolute;
+    width: auto;
+    left: 250px;
+    height: auto;
+  }
+  .consult-bg-img img {
+    width: 100%;
+    height: 450px;
+  }
+  .google-play-store {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .gp-review {
+    width: 95%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+  .gp-content {
+    width: 90%;
+    margin-left: 0px;
+    gap: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .gp-content h1 {
+    width: 100%;
+    font-size: 38px;
+    color: white;
+    margin-left: 0px;
+  }
+  .apps-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    margin-right: 0px;
+    justify-content: start;
+    margin-left: 0px;
+  }
+  .heading {
+    width: 100%;
+  }
+  .slide-btn {
+    width: 100%;
+    top: 160%;
+    left: -5px;
+    gap: 700px;
+  }
+  .ad-banner {
+    width: 100%;
+    height: 70vh;
+  }
+  .app-card-rv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 32%;
+    width: 65%;
+    height: auto;
+    gap: 20px;
+    bottom: 150px;
+  }
+  .ad-cards h1 {
+    position: absolute;
+    color: #c99435;
+    bottom: 60px;
+    font-size: 24px;
+    left: 40%;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    bottom: 50px;
+    width: 100%;
+  }
+  .consultation-work {
+    display: flex;
+    width: 90%;
+    height: 50vh;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+  }
+  .wrk {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .wrk img {
+    width: 65%;
+  }
+  .wrk h1,
+  .wrk p {
+    text-align: center;
+    width: 126%;
+    color: white;
+    font-size: 16px;
+  }
+  .wrk p {
+    text-align: center;
+    width: 126%;
+    color: white;
+    font-size: 16px;
+  } /* Toast */
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    height: 35%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .tost-btn {
+    margin-bottom: 0px;
+    margin-top: -100px;
+  }
+  .pet-hands {
+    margin-left: 0px;
+    margin-bottom: 1px;
+    margin-top: 100px;
+  }
+  .pet-hands img {
+    width: 100%;
+  }
+  .toast-container {
+    width: 30%;
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 15px;
+    margin: 0px 15px;
+  }
+  .toast-container i {
+    font-size: 24px;
+  }
+  .pet-hands img {
+    width: 100%;
+  }
+  /* Footer */
+  .consult-bg-img {
+    position: absolute;
+    width: auto;
+    left: 330px;
+    height: auto;
+  }
+  /* Footer */
+  footer {
+    width: 80%;
+    padding: 50px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  section.top {
+    padding-top: 30px;
+    margin-bottom: 48px;
+  }
+  section.top ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .footer-ul li {
+    margin-bottom: 20px;
+    width: 25%;
+  }
+  footer section {
+    padding: 0 50px;
+  }
+  input[type="email"],
+  input[type="text"] {
+    width: 35%;
+  }
+  .app-links {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact span {
+    left: 64%;
+    top: 48%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .consult-bg-img {
+    position: absolute;
+    width: 50%;
+    left: 650px;
+    top: 35px;
+  }
+
+  .consult-banner-content {
+    right: 40%;
+    top: 10px;
+    background-image: none;
+  }
+  .consult-banner-content h1 {
+    color: rgb(11, 11, 11);
+    text-align: start;
+    width: 100%;
+    font-size: 40px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+  }
+  .consult-banner-content p {
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    padding: 15px;
+    padding-right: 0px;
+    border-radius: 20px;
+    background-color: black;
+    width: 60%;
+    margin-right: 40%;
+  }
+  .btn-consult {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 5px;
+    margin-right: 50%;
+  }
+  .google-play-store {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+  .gp-review {
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+  }
+  .gp-content {
+    width: 50%;
+    margin-left: 50px;
+    gap: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  /*  */
+  .app-card-rv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 32%;
+    width: 60%;
+    height: auto;
+    gap: 20px;
+    bottom: 130px;
+  }
+  .ad-cards h1 {
+    position: absolute;
+    color: #c99435;
+    bottom: 60px;
+    font-size: 28px;
+    left: 42%;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    bottom: 70px;
+    width: 100%;
+  }
+  /* .slide-btn {
+    width: 20%;
+    top: 120%;
+    left: 880px;
+    gap: 495px;
+  } */
+  .slide-btn {
+    width: 20%;
+    top: 115%;
+    left: 790px;
+    gap: 685px;
+  }
+  .consultation-work {
+    display: flex;
+    width: 90%;
+    height: 50vh;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    gap: 100px;
+    justify-content: center;
+    align-items: start;
+    margin-left: 65px;
+  }
+  .contact span {
+    left: 63%;
+    top: 48%;
+  }
+  input[type="email"],
+  input[type="text"] {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1490px) {
+  nav {
+    height: 60px;
+  }
+  .consultation-work {
+    margin-top: 50px;
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .toast-container {
+    width: 20%;
+  }
+  .toast {
+    width: auto;
+  }
+  .progress {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    height: 35%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .slide-btn {
+    width: 20%;
+    top: 95%;
+    left: 920px;
+    gap: 485px;
+  }
+  .gp-content h1 {
+    width: 80%;
+    font-size: 36px;
+    color: white;
+    margin-left: 40px;
+  }
+  .google-play-store {
+    margin-left: 80px;
+  }
+  .app-card-rv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 32%;
+    width: 60%;
+    height: auto;
+    gap: 20px;
+    bottom: 100px;
+  }
+  .consult-bg-img img {
+    width: 80%;
+    height: auto;
+  }
+}

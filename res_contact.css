@@ -1,0 +1,1145 @@
+@media screen and (max-width: 600px) {
+  .breed-sec {
+    margin-top: 4%;
+  }
+  .contacted-container img {
+    width: 50%;
+    top: 64%;
+    left: 45%;
+    position: absolute;
+  }
+  .contact-content {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .contact-content h1 {
+    width: 80%;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .contact-content a {
+    width: 60%;
+    font-size: 21px;
+    margin-left: -120px;
+  }
+  .contact-form {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contacted-container {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    height: auto;
+    gap: 30px;
+  }
+  .contacted-container img {
+    width: 45%;
+    top: 68%;
+    left: 45%;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 599px) {
+  nav {
+    margin-top: 20px;
+    margin-left: 0px;
+    position: relative;
+    position: relative;
+    z-index: 2;
+    top: -10px;
+    left: 10%;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 60px;
+    left: 0px;
+    top: 15px;
+    position: absolute;
+  }
+  .dog-img img {
+    width: 100%;
+    margin-right: 8%;
+    height: auto;
+  }
+  .contacted-container {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    height: auto;
+    gap: 30px;
+  }
+  .contacted-container img {
+    width: 95%;
+    top: 27%;
+    position: static;
+    margin-bottom: -70px;
+    align-self: start;
+  }
+  .contact-content {
+    width: 100%;
+    margin-left: -10px;
+    gap: 15px;
+  }
+  .contact-content h1 {
+    width: 90%;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  .contact-content a {
+    width: 90%;
+    font-size: 17px;
+    margin-left: 0px;
+  }
+  .contact-form {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  textarea {
+    width: 87.5%;
+  }
+  .contact-form button[type="submit"] {
+    width: 96%;
+    padding: 12px;
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"] {
+    width: 87.5%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  nav {
+    margin-top: 20px;
+    margin-left: 0px;
+    position: relative;
+    position: relative;
+    z-index: 2;
+    top: -10px;
+    left: 10%;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 60px;
+    left: 0px;
+    top: 15px;
+    position: absolute;
+  }
+  .dog-img img {
+    width: 100%;
+    margin-right: 8%;
+    height: auto;
+  }
+  .contacted-container {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    height: auto;
+    gap: 30px;
+  }
+  .contacted-container img {
+    width: 95%;
+    top: 27%;
+    /* left: 15%; */
+    position: static;
+    margin-bottom: -70px;
+    align-self: start;
+  }
+  .contact-content {
+    width: 100%;
+    margin-left: -10px;
+    gap: 15px;
+  }
+  .contact-content h1 {
+    width: 90%;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  .contact-content a {
+    width: 90%;
+    font-size: 17px;
+    margin-left: 0px;
+  }
+  .contact-form {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  textarea {
+    width: 85%;
+  }
+  .contact-form button[type="submit"] {
+    width: 95%;
+    padding: 12px;
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"] {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact span {
+    left: 78%;
+    top: 55%;
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .breed-sec {
+    margin-top: 4%;
+  }
+
+  .contacted-container {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    height: auto;
+    gap: 30px;
+  }
+  .contacted-container img {
+    width: 50%;
+    top: 64%;
+    left: 45%;
+    position: absolute;
+  }
+  .contact-content {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .contact-content h1 {
+    width: 90%;
+    font-size: 34px;
+    text-transform: uppercase;
+  }
+  .contact-content a {
+    width: 90%;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  .contact-form {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contacted-container {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    height: auto;
+    gap: 30px;
+  }
+  .contacted-container img {
+    width: 45%;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .breed-sec {
+    margin-top: 4%;
+  }
+  .contacted-container {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    height: auto;
+    gap: 50px;
+  }
+  .contacted-container img {
+    width: 49%;
+    top: 1%;
+    left: 50%;
+    position: absolute;
+    display: none;
+  }
+  .contact-content {
+    width: 115%;
+    margin-left: -20px;
+  }
+  .contact-content h1 {
+    width: 79%;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .contact-content a {
+    width: 60%;
+    font-size: 21px;
+    margin-left: 0px;
+  }
+  .contact-form {
+    width: 150%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* check */
+  .contact-content {
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: start;
+  }
+  .contact-form {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-form form {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+  .contacted-container img {
+    width: 50%;
+    top: 48%;
+    left: 50%;
+    position: absolute;
+  }
+  .contacted-container {
+    width: 100%;
+    margin-left: -8%;
+    margin-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    height: auto;
+    gap: 50px;
+  }
+  .contact-content h1 {
+    width: 73%;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  .contacted-container img {
+    width: 50%;
+    top: 48%;
+    left: 52%;
+    position: absolute;
+  }
+  .contact-content h1 {
+    width: 72%;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  .contact-content {
+    width: 115%;
+    margin-left: 75px;
+  }
+}
+@media screen and (min-width: 1023px) {
+  nav {
+    height: 105px;
+  }
+  .breed-sec {
+    margin-top: 4%;
+  }
+  .contacted-container {
+    /* background-color: red; */
+    width: 100%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+  }
+  .contacted-container img {
+    width: 30%;
+    top: 41%;
+    left: 29%;
+    position: absolute;
+  }
+  .contact-content {
+    width: 50%;
+  }
+  .contact-content h1 {
+    width: 75%;
+    font-size: 38px;
+    text-transform: uppercase;
+  }
+  .contact-content a {
+    width: 75%;
+  }
+  .contact-form {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-form button[type="submit"] {
+    width: 77%;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  nav {
+    height: 90px;
+    left: 270px;
+  }
+  .breed-sec {
+    margin-top: 4%;
+  }
+  .contacted-container {
+    /* background-color: red; */
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 4%;
+  }
+  .contacted-container img {
+    width: 25%;
+    top: 49%;
+    left: 25%;
+    position: absolute;
+  }
+  .contact-content {
+    width: 50%;
+  }
+  .contact-content h1 {
+    width: 75%;
+    font-size: 34px;
+    text-transform: uppercase;
+  }
+  .contact-content a {
+    width: 75%;
+  }
+  .contact-form {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-form button[type="submit"] {
+    width: 77%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  nav {
+    height: 90px;
+    left: 470px;
+  }
+
+  .contacted-container img {
+    width: 25%;
+    top: 33%;
+    left: 30%;
+    position: absolute;
+  }
+  .contact-form {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-content a {
+    width: 75%;
+  }
+  .contact-content h1 {
+    width: 75%;
+    font-size: 38px;
+    text-transform: uppercase;
+  }
+  .contact-content {
+    width: 50%;
+  }
+  .contacted-container {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 4%;
+  }
+  .breed-sec {
+    margin-top: 4%;
+  }
+  .contact-form button[type="submit"] {
+    width: 75%;
+  }
+  .contacted-container img {
+    width: 30%;
+    top: 32%;
+    left: 20%;
+    position: absolute;
+  }
+  .pet-hands {
+    margin-left: 0px;
+    margin-bottom: 80px;
+    margin-top: -150px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* Nav */
+  nav {
+    margin-top: 20px;
+    margin-left: 0px;
+    position: relative;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    left: 3%;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 60px;
+    left: 0px;
+    top: 15px;
+    position: absolute;
+  }
+
+  /*  */
+  #checkbtn {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  nav {
+    position: sticky;
+    width: 95%;
+    gap: 200px;
+    height: 40px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0px;
+    left: -400px;
+    position: absolute;
+  }
+}
+@media (min-width: 425px) and (max-width: 600px) {
+  nav {
+    left: 0px;
+  }
+  #checkbtn {
+    display: block;
+    font-size: 18px;
+    line-height: 0px;
+    margin-right: 0px;
+    margin-top: 25px;
+  }
+  #check:checked ~ ul {
+    left: -35px;
+    top: 50px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0px;
+    left: -450px;
+    position: absolute;
+    top: 50px;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 60px;
+    left: 0px;
+    top: 15px;
+    position: absolute;
+  }
+  section.top h3 {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  /* Nav */
+  /* nav {
+    margin-top: 20px;
+    margin-left: 0px;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    left: 20%;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 60px;
+    left: 0px;
+    top: 15px;
+    position: absolute;
+  } */
+  /* Checking */
+  nav {
+    margin-top: 20px;
+    margin-left: 0px;
+    z-index: 2;
+    top: 0px;
+    left: 40.5%;
+    position: relative;
+    width: 266px;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  .active,
+  .btn:checked {
+    padding: 8px 15px;
+  }
+  a .logo {
+    width: 80px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+  section.top h3 {
+    margin-bottom: 10px;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"] {
+    width: 95%;
+    padding: 12px 15px;
+    color: white;
+    font-size: 16px;
+  }
+  textarea {
+    width: 95%;
+  }
+  .contact-form button[type="submit"] {
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .contacted-container img {
+    width: 45%;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  input[type="email"] {
+    width: 60%;
+  }
+  .contact span {
+    left: 75%;
+    top: 50%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .contact span {
+    left: 75%;
+    top: 40%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 600px) {
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 565px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  input[type="email"] {
+    width: 60%;
+  }
+  .contact span {
+    left: 75%;
+    top: 42%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  /* Footer */
+  footer {
+    width: 100%;
+    margin: 35px 5px;
+    height: 750px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  li {
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 48px;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  input[type="email"] {
+    width: 40%;
+  }
+  .contact span {
+    left: 66%;
+  }
+  .tele {
+    gap: 10px;
+  }
+
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    width: 90%;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .contact span {
+    left: 65%;
+    top: 52%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 330px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    width: 90%;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  input[type="email"] {
+    width: 30%;
+  }
+  .contact span {
+    left: 62%;
+    top: 42%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+  /* Footer */
+  .pet-hands img {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    height: 330px;
+    padding: 0px;
+  }
+  .contact span {
+    left: 66%;
+  }
+  section.top ul {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  section.top ul li a {
+    display: flex;
+    color: rgb(255 255 255 / 90%);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section.top {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    width: 90%;
+  }
+  footer section {
+    padding: 0px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  input[type="email"] {
+    width: 30%;
+  }
+  .contact span {
+    left: 62%;
+    top: 42%;
+  }
+  .tele {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  /* Footer */
+  .consult-bg-img {
+    position: absolute;
+    width: auto;
+    left: 330px;
+    height: auto;
+  }
+  /* Footer */
+  footer {
+    width: 80%;
+    padding: 50px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  section.top {
+    padding-top: 30px;
+    margin-bottom: 48px;
+  }
+  section.top ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .footer-ul li {
+    margin-bottom: 20px;
+    width: 25%;
+  }
+  footer section {
+    padding: 0 50px;
+  }
+  input[type="email"],
+  input[type="text"] {
+    width: 35%;
+  }
+  .app-links {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .contact h1 {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact span {
+    left: 64%;
+    top: 48%;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .contact span {
+    left: 63%;
+    top: 50%;
+  }
+}
