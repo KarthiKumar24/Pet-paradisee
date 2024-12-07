@@ -41,8 +41,8 @@
         margin-bottom: 10px;
     }
 
-   
-    .contact-form form{
+
+    .contact-form form {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -50,22 +50,22 @@
 </style>
 
 <body>
-        <a href="./Signup.html"><img src="./Image/logo-01.svg" alt="PetParadise-logo" class="logo"></a>
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" id="checkbtn"><i class="fa fa-bars"></i></label>
-            <ul id="ul-active">
-                <a href="./index.html">
-                    <li class="btn">HOME</li>
-                </a>
-                <a href="/consultation.html">
-                    <li class="btn ">CONSULT</li>
-                </a>
-                <a href="./contact.html">
-                    <li class="btn active">CONTACT</li>
-                </a>
-            </ul>
-        </nav>
+    <a href="./Signup.html"><img src="./Image/logo-01.svg" alt="PetParadise-logo" class="logo"></a>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" id="checkbtn"><i class="fa fa-bars"></i></label>
+        <ul id="ul-active">
+            <a href="./index.html">
+                <li class="btn">HOME</li>
+            </a>
+            <a href="/consultation.html">
+                <li class="btn ">CONSULT</li>
+            </a>
+            <a href="./contact.html">
+                <li class="btn active">CONTACT</li>
+            </a>
+        </ul>
+    </nav>
     <!--  -->
     <div class="contacted-container">
         <img src="./Image/pet-contact-form.png" alt="" srcset="">
@@ -156,6 +156,27 @@
             }
         }
 
+        // // Message validation
+        // let messageInput = document.getElementById("messageInput");
+        // let messageError = document.getElementById("messageError");
+
+        // function validateMessage() {
+        //     let message = messageInput.value.trim();
+
+        //     if (message.length === 0) {
+        //         messageError.textContent = "Enter Your Message";
+        //         messageError.style.color = "red";
+        //         messageInput.style.borderColor = "red";
+        //         return false;
+        //     } else if (message.length > 0) {
+        //         messageError.textContent = "Valid Message";
+        //         messageError.className = "success";
+        //         messageError.style.color = "#30e54c";
+        //         messageInput.style.borderColor = "#30e54c";
+        //         return true;
+        //     }
+        // }
+
         // Message validation
         let messageInput = document.getElementById("messageInput");
         let messageError = document.getElementById("messageError");
@@ -163,12 +184,21 @@
         function validateMessage() {
             let message = messageInput.value.trim();
 
+            // Define the pattern to allow letters, spaces, commas, periods, and up to 5 digits.
+            let pattern = /^[a-zA-Z0-9,.\s]{1,100}$/;
+
+            // Check if the message contains any invalid characters or exceeds 5 digits
             if (message.length === 0) {
                 messageError.textContent = "Enter Your Message";
                 messageError.style.color = "red";
                 messageInput.style.borderColor = "red";
                 return false;
-            } else if (message.length > 0) {
+            } else if (!pattern.test(message)) {
+                messageError.textContent = "Invalid characters or too many digits.";
+                messageError.style.color = "red";
+                messageInput.style.borderColor = "red";
+                return false;
+            } else {
                 messageError.textContent = "Valid Message";
                 messageError.className = "success";
                 messageError.style.color = "#30e54c";
@@ -177,8 +207,9 @@
             }
         }
 
+
         // Full form validation on submit
-        let formError=   document.getElementById("formError");
+        let formError = document.getElementById("formError");
         function validateForm() {
             let isUsernameValid = validateUsername();
             let isEmailValid = validateEmail();
@@ -195,9 +226,9 @@
             }
         }
     </script>
-<div class="pet-hands">
-    <img src="./Image/pawhands.webp" alt="">
-  </div>
+    <div class="pet-hands">
+        <img src="./Image/pawhands.webp" alt="">
+    </div>
     <!-- Footer -->
     <footer>
         <section class="top">
@@ -249,43 +280,7 @@
             <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </footer>
-    <section class="bottom">&copy 2024 PET PARADISE</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <section class="bottom">&copy 2024 PET PARADISE-All rights are reserved</section>
 
 
 
