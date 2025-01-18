@@ -61,16 +61,21 @@ ul a {
   display: flex;
 } */
 nav {
-  width: 0%;
-  background-color: rebeccapurple;
-  left: 43%;
-  top: 35px;
-  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: fixed;
+  z-index: 2;
 }
 nav ul {
+  list-style-type: none;
   display: flex;
-  flex-direction: row;
   gap: 40px;
+  padding: 15px 30px;
+  border: 2px solid #6f6f6f;
+  background-color: rgba(78, 78, 78, 0.288);
+  border-radius: 40px;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
 }
 nav ul li a {
   all: unset;
@@ -525,5 +530,6 @@ div#line {
   }
   .container {
     width: 50%;
+    margin-left: 150px;
   }
 }
