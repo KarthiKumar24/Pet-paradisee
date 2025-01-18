@@ -1273,6 +1273,7 @@
     top: 98.5%;
     font-size: 29px;
     width: auto;
+    margin-top: 0px;
   }
 }
 
@@ -1381,6 +1382,7 @@
     top: 110.4%;
     font-size: 29px;
     width: 25%;
+    margin-top: 0px;
   }
   h1#dogNum,
   h2#dogBal {
@@ -1761,6 +1763,7 @@
     left: 86.5%;
     top: 152%;
     font-size: 15px;
+    margin-top: 0px;
     width: auto;
   }
 
@@ -1868,6 +1871,7 @@
     top: 49%;
     font-size: 15px;
     width: auto;
+    margin-top: 0px;
   }
   .parallax-container {
     width: 100%;
@@ -2121,7 +2125,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .line-div {
     position: absolute;
@@ -2129,6 +2133,7 @@
     top: 52%;
     font-size: 15px;
     width: auto;
+    margin-top: 20px;
   }
   .number {
     display: flex;
@@ -2328,6 +2333,7 @@
     top: 51%;
     font-size: 15px;
     width: auto;
+    margin-top: 0px;
   }
   .dog-container {
     margin-top: 15%;
@@ -2467,6 +2473,7 @@
     font-weight: 600;
     border-radius: 20px;
     font-size: 14px;
+    cursor: pointer;
   }
   .content-side p {
     color: aliceblue;
@@ -2479,6 +2486,7 @@
     position: absolute;
     left: 86.5%;
     top: 68%;
+    margin-top: -35px;
   }
   .btn-more .know-more {
     padding: 10px 30px;
