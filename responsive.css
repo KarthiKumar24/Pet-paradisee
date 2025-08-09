@@ -199,7 +199,6 @@
     height: 350px;
     width: 90%;
     max-width: 850px;
-    margin: 0px 0px 0px 30px;
   }
   .content .text {
     font-size: 16px;
@@ -1844,7 +1843,6 @@
     height: 350px;
     width: 90%;
     max-width: 850px;
-    margin: 0px 0px 0px 40px;
   }
   .card .inner_part {
     width: 90%;
@@ -1923,174 +1921,50 @@
   }
 }
 
-/* For tablet devices (481px to 768px) */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    width: 85%;
+    padding: 10px;
+  }
   .footer-ul {
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
   }
-  .footer-ul li {
-    margin-bottom: 20px;
-    width: 50%;
-  }
-  section.top ul {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  input[type="email"],
-  input[type="text"] {
-    width: 50%;
-  }
-  .app-links {
-    flex-direction: row;
-    gap: 20px;
-  }
-  footer {
-    width: 90%;
-    padding: 0px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-  }
-  .contact span {
-    position: absolute;
-    top: 50%;
-    background-color: transparent;
-    padding: 3px;
-    left: 70%;
-    font-size: 18px;
-    color: white;
-  }
-  footer {
-    width: 90%;
-    padding: 0px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-    margin-top: 40px;
-  }
-  .contact span {
-    position: absolute;
-    top: 50%;
-    background-color: transparent;
-    padding: 3px;
-    left: 70%;
-    font-size: 18px;
-    color: white;
-  }
-}
 
-/* For laptop devices (769px to 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .footer-ul {
-    flex-direction: row;
-  }
   .footer-ul li {
     margin-bottom: 20px;
-    width: 33.33%;
+    width: 33.33%; /* 3 columns */
   }
+
   section.top ul {
+    display: flex;
     flex-direction: row;
     gap: 20px;
   }
+
   input[type="email"],
   input[type="text"] {
     width: 30%;
   }
-  .app-links {
-    flex-direction: row;
-    gap: 20px;
-  }
-  .slider {
-    margin-top: 30%;
-    margin-left: 95%;
-  }
-}
 
-/* For mobile devices (320px to 480px) */
-/* @media only screen and (min-width: 320px) and (max-width: 480px) {
-  footer {
-    width: 95%;
-    padding: 0px;
-    margin-left: 6px;
-    margin-top: 40px;
-  }
-  .footer-ul {
-    flex-direction: column;
-  }
-  .footer-ul li {
-    margin-bottom: 20px;
-  }
-  section.top ul {
-    flex-direction: column;
-    gap: 20px;
-  }
-  input[type="email"],
-  input[type="text"] {
-    width: 70%;
-  }
-  .app-links {
-    flex-direction: column;
-    gap: 20px;
-  }
-} */
-
-/* For tablet devices (481px to 768px) */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .footer-ul {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .footer-ul li {
-    margin-bottom: 20px;
-    width: 50%;
-  }
-  section.top ul {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  input[type="email"],
-  input[type="text"] {
-    width: 50%;
-  }
-  .app-links {
-    flex-direction: row;
-    gap: 20px;
-  }
-}
-
-/* For laptop devices (769px to 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  footer {
-    width: 80%;
-    padding: 40px;
-  }
-  .footer-ul {
-    flex-direction: row;
-  }
-  .footer-ul li {
-    margin-bottom: 20px;
-    width: 33.33%;
-  }
-  section.top ul {
-    flex-direction: row;
-    gap: 20px;
-  }
-  input[type="email"],
-  input[type="text"] {
-    width: 30%;
-  }
   .contact span {
     position: absolute;
     top: 48%;
+    left: 61%;
     background-color: transparent;
     padding: 3px;
-    left: 61%;
   }
+
   .app-links {
+    display: flex;
     flex-direction: row;
     gap: 20px;
   }
+
+      .slider {
+        margin-top: 35%;
+        margin-left: 112%;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
